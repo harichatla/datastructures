@@ -1,4 +1,6 @@
 package collectionspractise;
+import com.sun.xml.internal.bind.v2.TODO;
+
 import java.util.*;
 import java.util.ArrayList;
 
@@ -20,7 +22,7 @@ public class list {
      Iterator<product> itr=list2.iterator();
      ListIterator<product> itr2=list2.listIterator();
 
-
+        //TODO
         while(itr2.hasNext()){
             product p=itr2.next();
             if(p.data>90){
